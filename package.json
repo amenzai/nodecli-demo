@@ -1,0 +1,18 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gjccli": "./bin/gjccli.js"
+  },
+  "scripts": {
+    "start": "gjccli"
+  },
+  "author": "amenzai",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.2",
+    "yargs": "^12.0.1"
+  }
+}
